@@ -1,5 +1,12 @@
 <?php 
 // After FizzBuzz not print Bazz, because i just put if Fizz or Buzz only
+$fizzbuzzbazz = new FizzBuzzBazz();
+$fizzbuzzbazz->input = array(4,5,6,7,8,9,10,11);
+
+$fizzbuzzbazz->output();
+foreach($fizzbuzzbazz->input as $z){
+    echo $z." ";
+}
 
 class FizzBuzzBazz{
     var $input = array();
