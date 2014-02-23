@@ -1,5 +1,13 @@
 <?php 
 
+$fizzbuzz = new FizzBuzz();
+$fizzbuzz->input = array(12,13,14,15,16);
+
+$fizzbuzz->output();
+foreach($fizzbuzz->input as $z){
+    echo $z." ";
+}
+
 class FizzBuzz{
     var $input = array();
     public function output(){
